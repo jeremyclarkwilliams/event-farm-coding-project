@@ -1,0 +1,7 @@
+.address {
+  transform: translateY(-100vh);
+}
+
+.address.active {
+  transform: translateY(0);
+}

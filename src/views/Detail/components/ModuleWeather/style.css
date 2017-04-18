@@ -1,0 +1,23 @@
+@media (max-width: 767px) {
+  .detail .module.module-weather {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 600px) {
+  .module-weather .hdr-value {
+    display: none;
+  }
+}
+
+.detail .icon-weather {
+  height: 14rem;
+}
+
+@media (max-width: 767px) {
+  .detail .icon-weather {
+    height: 10rem;
+  }
+}

@@ -1,0 +1,21 @@
+.detail .module-misc .forecast-value {
+  width: calc(100% / 2);
+}
+
+@media (max-width: 767px) {
+  .detail .module-misc .value-list {
+    margin: 1rem auto;
+  }
+
+  .detail .module.module-misc .forecast-value {
+    padding: 0 1rem;
+    width: calc(100% / 4);
+  }
+}
+
+@media (max-width: 400px) {
+  .detail .module.module-misc .forecast-value {
+    margin: 1rem auto;
+    width: calc(100% / 2);
+  }
+}

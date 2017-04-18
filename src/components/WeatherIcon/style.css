@@ -1,0 +1,10 @@
+.icon-weather {
+  display: block;
+  margin: 1rem auto;
+}
+
+@media (max-width: 767px) {
+  .icon-weather {
+    margin: 0 auto;
+  }
+}

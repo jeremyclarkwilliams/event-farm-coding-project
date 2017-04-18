@@ -1,0 +1,27 @@
+.forecast-day {
+  cursor: pointer;
+  transition: box-shadow .25s ease-in-out;
+}
+
+.forecast-day:hover,
+.forecast-day:focus {
+  box-shadow: 0 .4rem .4rem #70b5cb;
+}
+
+@media (max-width: 767px) {
+  .forecast-day .hdr-module,
+  .forecast-day .value-list {
+    width: calc(100% / 3);
+  }
+}
+
+@media (max-width: 600px) {
+  .forecast-day .hdr-module,
+  .forecast-day .value-list {
+    width: 100%;
+  }
+}
+
+.forecast-day .icon-weather {
+  height: 7rem;
+}
